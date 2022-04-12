@@ -2,6 +2,8 @@
   "name": "onfood",
   "version": "0.1.0",
   "private": true,
+  "author": "Leandro Cavalcante<leandroguitarjesus89@gmail.com>",
+  "keywords": ["Next","Typescript","Tailwind"],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
