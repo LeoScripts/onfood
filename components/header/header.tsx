@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import Styles from './header.module.css';
+import { IconBookmark, IconHome } from '@/icons';
 
 
 export function Header() {
@@ -8,17 +9,27 @@ export function Header() {
     <header>
       <nav className={Styles.nav}>
         <div className={Styles.brand}>
-          <Image src="/images/logo.png" width={45} height={36} alt="OnFood" />
+          <Link href="/">
+            <a>
+              <Image src="/images/logo.png" width={36} height={26} alt="OnFood" />
+              <span>OnFood</span>
+            </a>
+          </Link>
         </div>
         <ul>
           <li>
             <Link href="/">
-              <a>Home</a>
+              <a>
+                <IconHome />
+                Home</a>
             </Link>
           </li>
           <li>
             <Link href="/favoritos">
-              <a>Favoritos</a>
+              <a>
+                <IconBookmark />
+                Favoritos
+              </a>
             </Link>
           </li>
         </ul>
