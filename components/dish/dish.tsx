@@ -1,10 +1,10 @@
 import Image from "next/image";
-import { DisheDetails } from "@/components";
-import Styles from "./dishe.module.css";
+import { DishDetails } from "@/components";
+import Styles from "./dish.module.css";
 
-export function Dishe(){
+export function Dish(){
   return (
-    <div className={Styles.dishe}>
+    <div className={Styles.dish}>
       <div className={Styles.wrapper}>
         <Image 
           src="https://storage.googleapis.com/onfood/peperoni.jpg"
@@ -20,9 +20,9 @@ export function Dishe(){
           <h2>Nome do produto</h2>
         </div>
         <div className={Styles.details}>
-          <DisheDetails type="reviews" title="(201)" subtitle="4.5" />
-          <DisheDetails type="category" title="categoria" />
-          <DisheDetails type="delivery" title="30 - 40 min" />
+          <DishDetails type="reviews" title="(201)" subtitle="4.5" />
+          <DishDetails type="category" title="categoria" />
+          <DishDetails type="delivery" title="30 - 40 min" />
         </div>
       </div>
     </div>
