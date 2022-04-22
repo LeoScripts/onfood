@@ -23,7 +23,7 @@
 }
 
 .options div {
-  @apply absolute w-full mt-3 bg-white shadow rounded-xl overflow-hidden;
+  @apply absolute z-50 w-full mt-3 bg-white shadow rounded-xl overflow-hidden;
 }
 
 .options a {
