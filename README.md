@@ -1,6 +1,6 @@
 <div align="center" id="top"> 
   <!-- <img src="./.github/app.gif" alt="Onfood" /> -->
-  <img src="preview/preview-onfood.png" alt="Onfood" />
+  <!-- <img src="preview/preview-onfood.png" alt="Onfood" /> -->
   
 
   &#xa0;
