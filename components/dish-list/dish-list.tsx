@@ -1,4 +1,4 @@
-import { Dish } from "@/components";
+import { Dish, DishSkeleton } from "@/components";
 import Styles from "./dish-list.module.css";
 import { api } from "@/services";
 import { useQuery } from "react-query";
@@ -15,7 +15,7 @@ export function DishList () {
   return (
 
     <div className={Styles.list}>
-      {isFetching ? (<div>Carregando</div>) 
+      {isFetching ? (<DishSkeleton />) 
       : ( data?.map(
           (dish) => <Dish key={dish.id} { ...Dish } />) 
         )
