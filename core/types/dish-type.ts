@@ -4,7 +4,7 @@ export type DishTypes = {
   rate: string;
   reviews: string
   picture: string;
-  category: string;
+  categoryName: string;
   deliveryEstimate: string;
   city: string;
   tags: [

@@ -4,10 +4,14 @@
   "private": true,
   "author": "Leandro Cavalcante<leandroguitarjesus89@gmail.com>",
   "keywords": [
+    "Node",
     "Next",
     "Typescript",
     "Tailwind",
-    "Headless ui"
+    "Headless UI",
+    "Skeleton UI",
+    "React-Query",
+    "Axios"
   ],
   "scripts": {
     "dev": "next dev",

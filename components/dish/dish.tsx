@@ -22,7 +22,7 @@ export function Dish(props: DishTypes){
         </div>
         <div className={Styles.details}>
           <DishDetails type="reviews" title={props.reviews} subtitle={props.rate} />
-          <DishDetails type="category" title={props.category} />
+          <DishDetails type="category" title={props.categoryName} />
           <DishDetails type="delivery" title={props.deliveryEstimate} />
         </div>
       </div>
