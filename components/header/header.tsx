@@ -24,14 +24,7 @@ export function Header() {
                 Home</a>
             </Link>
           </li>
-          <li>
-            <Link href="/favoritos">
-              <a>
-                <IconBookmark />
-                Favoritos
-              </a>
-            </Link>
-          </li>
+
         </ul>
       </nav>
     </header>

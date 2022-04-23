@@ -1,6 +1,6 @@
 <div align="center" id="top"> 
   <!-- <img src="./.github/app.gif" alt="Onfood" /> -->
-  <!-- <img src="preview/preview-onfood.png" alt="Onfood" /> -->
+  <img src="preview/preview-onfood.png" alt="Onfood" />
   
 
   &#xa0;
@@ -48,13 +48,21 @@
 
 ## :dart: About ##
 
-Describe your project
+👨🏽‍💻 Web application that displays locations with types of food, the data is fetched from an external API (mocked API) and displayed on screen on cards.
+
+* Usage
+you select the city in the menu and then you will be directed to the dishes page 😋
+
+🤩 contribute to the project by giving a star or making a forke
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+:heavy_check_mark: HttpRequest;\
+:heavy_check_mark: Pagination;\
+:heavy_check_mark: Layout responsive;\
+:heavy_check_mark: UI/UX;\
+:heavy_check_mark: POO;\
+:heavy_check_mark: SOLID;
 
 ## :rocket: Technologies ##
 
@@ -62,6 +70,13 @@ The following tools were used in this project:
 
 - [Node.js](https://nodejs.org/en/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [Next](https://nextjs.org/)
+- [Skeleton UI](https://www.npmjs.com/package/react-loading-skeleton)
+- [Tailwind](https://tailwindcss.com/)
+- [React-Query](https://react-query.tanstack.com/)
+- [Axios](https://axios-http.com/ptbr)
+- [Headless UI](https://headlessui.dev/)
+
 
 ## :white_check_mark: Requirements ##
 
@@ -76,11 +91,24 @@ $ git clone https://github.com/LeoScripts/onfood
 # Access
 $ cd onfood
 
+# in production
+# rename file .env.local.example to .env.local and insert your APIKEY
+
+# in test 
+#rename file .env.local.example to .env.local and insert your APIKEY
+# insert APIKEY=bGVhbmRyb2d1aXRhcmplc3VzODlAZ21haWwuY29t
+
 # Install dependencies
 $ yarn
 
-# Run the project
+# Run the project in development
 $ yarn dev
+
+# Run the project in production
+$ yarn start
+
+# build
+$ yarn build
 
 # The server will initialize in the <http://localhost:3000>
 ```
