@@ -43,6 +43,7 @@
 <br>
 
 ## :dart: About ##
+access to see [https://on-food-five.vercel.app/](https://on-food-five.vercel.app/)
 
 👨🏽‍💻 Web application that displays locations with types of food, the data is fetched from an external API (mocked API) and displayed on screen on cards.
 
@@ -90,7 +91,7 @@ $ cd onfood
 # rename file .env.local.example to .env.local and insert your APIKEY
 
 # in test 
-#rename file .env.local.example to .env.local and insert your APIKEY
+#rename file .env.local.example to .env.local and 
 # insert APIKEY=bGVhbmRyb2d1aXRhcmplc3VzODlAZ21haWwuY29t
 
 # Install dependencies
