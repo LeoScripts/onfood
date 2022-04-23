@@ -28,10 +28,6 @@
 
 <!-- Status -->
 
-<h4 align="center"> 
-	🚧  Onfood 🚀 Under construction...  🚧
-</h4> 
-
 <hr>
 
 <p align="center">
