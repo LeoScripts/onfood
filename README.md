@@ -46,7 +46,6 @@
 
 👨🏽‍💻 Web application that displays locations with types of food, the data is fetched from an external API (mocked API) and displayed on screen on cards.
 
-* Usage
 you select the city in the menu and then you will be directed to the dishes page 😋
 
 🤩 contribute to the project by giving a star or making a forke
