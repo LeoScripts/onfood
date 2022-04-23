@@ -3,10 +3,11 @@ import Styles from "./dish-list.module.css";
 import { api } from "@/services";
 import { useQuery } from "react-query";
 import { DishTypes } from "@/types";
+import { DishListProps } from "./type";
 
-export function DishList () {
+export function DishList (props: DishListProps) {
   const fetchDishes = async () =>  {
-    const response = await api.get<DishTypes[]>("/deliveries?city=sao-paulo-sp")
+    const response = await api.get<DishTypes[]>(`/deliveries?city=${props.citySlug}`)
     return response.data;
   }
 
