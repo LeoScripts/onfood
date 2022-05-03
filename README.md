@@ -24,6 +24,8 @@
   <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/LeoScripts/onfood?color=56BEB8" /> -->
 
   <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/LeoScripts/onfood?color=56BEB8" /> -->
+
+![visitors](https://visitor-badge-reloaded.herokuapp.com/badge?page_id=LeoScripts&color=00df00)
 </p>
 
 <!-- Status -->
