@@ -25,7 +25,7 @@
 
   <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/LeoScripts/onfood?color=56BEB8" /> -->
 
-![visitors](https://visitor-badge-reloaded.herokuapp.com/badge?page_id=LeoScripts&color=00df00)
+
 </p>
 
 <!-- Status -->
@@ -44,7 +44,7 @@
 
 <br>
 
-## :dart: About ##
+## :dart: About ## ![visitors](https://visitor-badge-reloaded.herokuapp.com/badge?page_id=onfood&color=56BEB8)
 access to see [https://on-food-five.vercel.app/](https://on-food-five.vercel.app/)
 
 👨🏽‍💻 Web application that displays locations with types of food, the data is fetched from an external API (mocked API) and displayed on screen on cards.
