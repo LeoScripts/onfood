@@ -1,6 +1,6 @@
 <div align="center" id="top"> 
   <!-- <img src="./.github/app.gif" alt="Onfood" /> -->
-  <img src="<img src="https://github.com/LeoScripts/onfood/raw/main/.gitassets/capa.png" width="500" alt="Onfood" />
+  <img src="https://github.com/LeoScripts/onfood/raw/main/.gitassets/capa.png" width="500" alt="Onfood" />
   
 
   &#xa0;
