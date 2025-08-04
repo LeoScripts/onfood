@@ -31,7 +31,7 @@ export async function getStaticPaths() {
   // Mock temporário
   const cities = api.cities;
 
-  const urls = cities.map((city: CityProps) => ({
+  const urls = cities.map((city: any) => ({
     params: {
       city: city.slug,
     },
