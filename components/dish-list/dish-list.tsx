@@ -5,28 +5,36 @@ import { useQuery } from "react-query";
 import { DishTypes } from "@/types";
 import { DishListProps } from "./type";
 
-export function DishList (props: DishListProps) {
-  const fetchDishes = async () =>  {
-    const response = await api.get<DishTypes[]>(`/deliveries?city=${props.citySlug}`)
-    return response.data;
-  }
+export function DishList(props: DishListProps) {
+  const fetchDishes = async (): Promise<DishTypes[]> => {
+    // API real (comentada)
+    // const response = await api.get<DishTypes[]>(`/deliveries?city=${props.citySlug}`)
+    // return response.data;
 
-  const { data, isFetching } = useQuery<DishTypes[]>("dishes", fetchDishes);
+    // Mock temporário
+    // Simula delay de API
+    // await new Promise((resolve) => setTimeout(resolve, 300));
+
+    // Filtra os pratos pela cidade do mock
+    const dishes = api.dishes.filter(
+      (dish) => dish.citySlug === props.citySlug,
+    );
+
+    return dishes;
+  };
+
+  const { data, isFetching } = useQuery<DishTypes[]>(
+    ["dishes", props.citySlug],
+    fetchDishes,
+  );
 
   return (
-
     <div className={Styles.list}>
-      {isFetching ? (<DishSkeleton />) 
-      : ( data?.map(
-          (dish) => <Dish key={dish.id} { ...dish } />) 
-        )
-      }
+      {isFetching ? (
+        <DishSkeleton />
+      ) : (
+        data?.map((dish) => <Dish key={dish.id} {...dish} />)
+      )}
     </div>
-
-    // <div className={Styles.list}>
-    //   <Dish />
-    //   <Dish />
-    //   <Dish />
-    // </div>
-  )
+  );
 }

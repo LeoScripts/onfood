@@ -3,11 +3,11 @@ import { DishDetails } from "@/components";
 import Styles from "./dish.module.css";
 import { DishTypes } from "@/types";
 
-export function Dish(props: DishTypes){
+export function Dish(props: DishTypes) {
   return (
     <div className={Styles.dish}>
       <div className={Styles.wrapper}>
-        <Image 
+        <Image
           src={props.picture}
           alt={props.name}
           width={592}
@@ -21,11 +21,15 @@ export function Dish(props: DishTypes){
           <h2>{props.name}</h2>
         </div>
         <div className={Styles.details}>
-          <DishDetails type="reviews" title={props.reviews} subtitle={props.rate} />
+          <DishDetails
+            type="reviews"
+            title={props.reviews}
+            subtitle={props.rate}
+          />
           <DishDetails type="category" title={props.categoryName} />
           <DishDetails type="delivery" title={props.deliveryEstimate} />
         </div>
       </div>
     </div>
-  )
+  );
 }

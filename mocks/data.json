@@ -1,0 +1,267 @@
+{
+  "cities": [
+    {
+      "id": "1",
+      "name": "São Paulo",
+      "dishes": [
+        {
+          "id": "1",
+          "name": "Pizza Margherita Clássica",
+          "description": "Pizza tradicional italiana com molho de tomate, mussarela fresca e manjericão",
+          "image": "https://cdn.dummyjson.com/recipe-images/1.webp",
+          "price": 32.9,
+          "category": "Pizza"
+        },
+        {
+          "id": "2",
+          "name": "Hambúrguer Vegetariano",
+          "description": "Hambúrguer saudável com vegetais frescos, alface e molho especial",
+          "image": "https://cdn.dummyjson.com/recipe-images/2.webp",
+          "price": 28.5,
+          "category": "Hambúrguer"
+        },
+        {
+          "id": "3",
+          "name": "Cookies de Chocolate",
+          "description": "Cookies caseiros com gotas de chocolate, crocantes por fora e macios por dentro",
+          "image": "https://cdn.dummyjson.com/recipe-images/3.webp",
+          "price": 15.9,
+          "category": "Sobremesa"
+        },
+        {
+          "id": "4",
+          "name": "Panquecas de Mirtilo",
+          "description": "Panquecas fofas recheadas com mirtilos frescos e calda de maple",
+          "image": "https://cdn.dummyjson.com/recipe-images/4.webp",
+          "price": 22.9,
+          "category": "Café da Manhã"
+        },
+        {
+          "id": "5",
+          "name": "Salada Caesar",
+          "description": "Salada fresca com alface romana, croutons, parmesão e molho caesar",
+          "image": "https://cdn.dummyjson.com/recipe-images/5.webp",
+          "price": 24.9,
+          "category": "Salada"
+        },
+        {
+          "id": "6",
+          "name": "Pad Thai Tradicional",
+          "description": "Macarrão tailandês refogado com camarão, amendoim e molho agridoce",
+          "image": "https://cdn.dummyjson.com/recipe-images/6.webp",
+          "price": 36.9,
+          "category": "Asiática"
+        },
+        {
+          "id": "7",
+          "name": "Salmão Grelhado",
+          "description": "Filé de salmão grelhado com ervas finas e legumes no vapor",
+          "image": "https://cdn.dummyjson.com/recipe-images/7.webp",
+          "price": 45.9,
+          "category": "Peixes"
+        },
+        {
+          "id": "8",
+          "name": "Refogado de Carne com Brócolis",
+          "description": "Carne bovina em fatias refogada com brócolis frescos no molho oriental",
+          "image": "https://cdn.dummyjson.com/recipe-images/8.webp",
+          "price": 38.9,
+          "category": "Carne"
+        },
+        {
+          "id": "9",
+          "name": "Sopa de Tomate",
+          "description": "Sopa cremosa de tomate com manjericão fresco e creme de leite",
+          "image": "https://cdn.dummyjson.com/recipe-images/9.webp",
+          "price": 18.9,
+          "category": "Sopa"
+        },
+        {
+          "id": "10",
+          "name": "Lemon Bars",
+          "description": "Barrinhas de limão com base crocante e cobertura cremosa azedinha",
+          "image": "https://cdn.dummyjson.com/recipe-images/10.webp",
+          "price": 12.9,
+          "category": "Sobremesa"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Rio de Janeiro",
+      "dishes": [
+        {
+          "id": "11",
+          "name": "Biryani de Frango",
+          "description": "Arroz basmati aromático com frango temperado e especiarias indianas",
+          "image": "https://cdn.dummyjson.com/recipe-images/11.webp",
+          "price": 42.9,
+          "category": "Indiana"
+        },
+        {
+          "id": "12",
+          "name": "Spaghetti Carbonara",
+          "description": "Massa italiana clássica com bacon, ovos, queijo parmesão e pimenta preta",
+          "image": "https://cdn.dummyjson.com/recipe-images/12.webp",
+          "price": 34.9,
+          "category": "Massa"
+        },
+        {
+          "id": "13",
+          "name": "Aloo Keema",
+          "description": "Prato paquistanês com carne moída e batatas em molho de especiarias",
+          "image": "https://cdn.dummyjson.com/recipe-images/13.webp",
+          "price": 39.9,
+          "category": "Paquistanesa"
+        },
+        {
+          "id": "14",
+          "name": "Tacos de Peixe",
+          "description": "Tacos mexicanos com peixe grelhado, repolho e molho picante",
+          "image": "https://cdn.dummyjson.com/recipe-images/14.webp",
+          "price": 31.9,
+          "category": "Mexicana"
+        },
+        {
+          "id": "15",
+          "name": "Risoto de Cogumelos",
+          "description": "Risoto cremoso com mix de cogumelos selvagens e queijo parmesão",
+          "image": "https://cdn.dummyjson.com/recipe-images/15.webp",
+          "price": 37.9,
+          "category": "Italiana"
+        },
+        {
+          "id": "16",
+          "name": "Curry de Frango Japonês",
+          "description": "Curry japonês suave com frango, cenoura e batata servido com arroz",
+          "image": "https://cdn.dummyjson.com/recipe-images/16.webp",
+          "price": 35.9,
+          "category": "Japonesa"
+        },
+        {
+          "id": "17",
+          "name": "Bolinhos de Falafel",
+          "description": "Bolinhos árabes crocantes de grão-de-bico com tahine e salada",
+          "image": "https://cdn.dummyjson.com/recipe-images/17.webp",
+          "price": 26.9,
+          "category": "Árabe"
+        },
+        {
+          "id": "18",
+          "name": "Ratatouille",
+          "description": "Tradicional ensopado provençal com berinjela, abobrinha e tomate",
+          "image": "https://cdn.dummyjson.com/recipe-images/18.webp",
+          "price": 29.9,
+          "category": "Francesa"
+        },
+        {
+          "id": "19",
+          "name": "Bulgogi Coreano",
+          "description": "Carne marinada coreana grelhada com molho doce e especiarias",
+          "image": "https://cdn.dummyjson.com/recipe-images/19.webp",
+          "price": 41.9,
+          "category": "Coreana"
+        },
+        {
+          "id": "20",
+          "name": "Torta de Maçã",
+          "description": "Torta tradicional americana com maçãs caramelizadas e canela",
+          "image": "https://cdn.dummyjson.com/recipe-images/20.webp",
+          "price": 19.9,
+          "category": "Sobremesa"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Belo Horizonte",
+      "dishes": [
+        {
+          "id": "21",
+          "name": "Curry Verde Tailandês",
+          "description": "Curry tailandês aromático com leite de coco, manjericão e pimenta verde",
+          "image": "https://cdn.dummyjson.com/recipe-images/21.webp",
+          "price": 38.9,
+          "category": "Tailandesa"
+        },
+        {
+          "id": "22",
+          "name": "Gyoza Japonês",
+          "description": "Dumplings japoneses recheados com carne e vegetais, grelhados na perfeição",
+          "image": "https://cdn.dummyjson.com/recipe-images/22.webp",
+          "price": 27.9,
+          "category": "Japonesa"
+        },
+        {
+          "id": "23",
+          "name": "Lasanha de Carne",
+          "description": "Lasanha italiana em camadas com molho bolonhesa e queijos derretidos",
+          "image": "https://cdn.dummyjson.com/recipe-images/23.webp",
+          "price": 43.9,
+          "category": "Italiana"
+        },
+        {
+          "id": "24",
+          "name": "Paella Espanhola",
+          "description": "Arroz espanhol tradicional com frutos do mar, açafrão e pimentão",
+          "image": "https://cdn.dummyjson.com/recipe-images/24.webp",
+          "price": 49.9,
+          "category": "Espanhola"
+        },
+        {
+          "id": "25",
+          "name": "Bangers and Mash",
+          "description": "Linguiças inglesas tradicionais com purê de batata e molho de cebola",
+          "image": "https://cdn.dummyjson.com/recipe-images/25.webp",
+          "price": 33.9,
+          "category": "Inglesa"
+        },
+        {
+          "id": "26",
+          "name": "Penne all'Arrabbiata",
+          "description": "Massa penne com molho de tomate picante, alho e pimenta vermelha",
+          "image": "https://cdn.dummyjson.com/recipe-images/26.webp",
+          "price": 32.9,
+          "category": "Italiana"
+        },
+        {
+          "id": "27",
+          "name": "Churrasco Brasileiro",
+          "description": "Mix de carnes grelhadas na brasa com temperos tradicionais brasileiros",
+          "image": "https://cdn.dummyjson.com/recipe-images/27.webp",
+          "price": 52.9,
+          "category": "Brasileira"
+        },
+        {
+          "id": "28",
+          "name": "Moussaka Grega",
+          "description": "Gratinado grego com berinjela, carne moída e molho bechamel",
+          "image": "https://cdn.dummyjson.com/recipe-images/28.webp",
+          "price": 40.9,
+          "category": "Grega"
+        },
+        {
+          "id": "29",
+          "name": "Pozole Mexicano",
+          "description": "Sopa mexicana tradicional com milho branco, carne de porco e especiarias",
+          "image": "https://cdn.dummyjson.com/recipe-images/29.webp",
+          "price": 36.9,
+          "category": "Mexicana"
+        },
+        {
+          "id": "30",
+          "name": "Tiramisu",
+          "description": "Sobremesa italiana clássica com café, mascarpone e cacau em pó",
+          "image": "https://cdn.dummyjson.com/recipe-images/30.webp",
+          "price": 22.9,
+          "category": "Sobremesa"
+        }
+      ]
+    }
+  ],
+  "pagination": {
+    "currentPage": 1,
+    "totalPages": 1,
+    "totalItems": 30
+  }
+}

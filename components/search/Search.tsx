@@ -1,30 +1,30 @@
 import { Menu } from "@headlessui/react";
 import { ItemLink } from "./item-link";
-import Styles from "./search.module.css"
+import Styles from "./search.module.css";
 import { IconFilter } from "@/icons";
 
 export function Search() {
   return (
     <Menu as="div" className={Styles.search}>
       <Menu.Button>
-        Selecione uma cidade 
-        <span> 
-          <IconFilter /> 
+        Selecione uma cidade
+        <span>
+          <IconFilter />
         </span>
       </Menu.Button>
       <Menu.Items className={Styles.options}>
         <div>
           <Menu.Item>
-            <ItemLink href="/descobrir/sao-paulo-sp">São Paulo - SP</ItemLink>
+            <ItemLink href="/descobrir/sao-paulo">São Paulo - SP</ItemLink>
           </Menu.Item>
           <Menu.Item>
-            <ItemLink href="/descobrir/florianopolis-sc">Florianopolis - SC</ItemLink>
+            <ItemLink href="/descobrir/belo-horizonte">BH</ItemLink>
           </Menu.Item>
           <Menu.Item>
-            <ItemLink href="/descobrir/porto-alegre-rs">Porto Alegre - RS</ItemLink>
+            <ItemLink href="/descobrir/rio-de-janeiro">Rio de Janeiro</ItemLink>
           </Menu.Item>
         </div>
       </Menu.Items>
     </Menu>
-  )
+  );
 }
